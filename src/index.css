@@ -1,0 +1,47 @@
+:root {
+  --primary-blue: #3fbbc0;
+  --secondary-blue: #f7fcfc;
+}
+
+body{
+  color: #333 !important;
+}
+
+.bg-blue {
+  background-color: var(--primary-blue);
+}
+
+.bg-sec-blue {
+  background-color: var(--secondary-blue);
+}
+
+.text-blue {
+  color: var(--primary-blue) !important;
+}
+
+.btn-blue{
+  background-color: var(--primary-blue);
+  color: #fff;
+  transition: .5s;
+
+  border: none;
+  outline: none;
+}
+
+.btn-blue:hover{
+  background-color: #3fbbc099;
+}
+
+.custom_shadow{
+  box-shadow: 0 0 15px 5px #3331;
+}
+
+.bordered_button{
+  border: 1px white solid;
+  transition: .5s;
+}
+
+.bordered_button:hover{
+  background-color: white !important;
+  color: var(--primary-blue) !important;
+}

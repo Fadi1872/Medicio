@@ -1,0 +1,23 @@
+#occorodion_item{
+    cursor: pointer;
+}
+
+#occorodion_item .grid {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: .5s;
+    padding-inline: 15px ;
+}
+
+#occorodion_item.active .grid {
+    grid-template-rows: 1fr;
+    padding-block: 15px;
+}
+
+#occorodion_item .icon {
+    transition: .5s;
+}
+
+#occorodion_item.active .icon {
+    transform: rotate(90deg);
+}

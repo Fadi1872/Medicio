@@ -1,0 +1,26 @@
+.carousel-inner{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active{
+    background-color: var(--primary-blue) !important;
+}
+
+.carousel-caption{
+    background-color: #fffd;
+    border-top: var(--primary-blue) 5px solid;
+    bottom: 15% !important;
+}
+
+.carousel-caption h3, .carousel-caption p{
+    color: #444;
+}

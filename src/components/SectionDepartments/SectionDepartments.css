@@ -1,0 +1,21 @@
+.tab{
+    transition: .3s;
+    border-right: 1px solid #999;
+}
+
+.tab.active{
+    border-right: 2px solid var(--primary-blue);
+}
+
+@media screen and (max-width: 767px) {
+    .tab{
+        border: none;
+        padding-inline: 20px;
+    }
+
+    .tab.active{
+        border: none;
+        background-color: var(--primary-blue);
+        color: #fff;
+    }
+}

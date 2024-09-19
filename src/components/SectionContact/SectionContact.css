@@ -1,0 +1,6 @@
+.contact_icon{
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px var(--primary-blue) dashed;
+}
